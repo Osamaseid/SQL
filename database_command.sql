@@ -22,3 +22,7 @@ CREATE INDEX idx_users_email ON users (email);
 ---
 ---drop an inde --
 DROP INDEX idx_users_email;
+-- show current database--
+SELECT current_database();
+--list tables--
+\ dt
