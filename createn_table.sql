@@ -5,3 +5,4 @@ CREATE TABLE employees (
     salary DECIMAL(10, 20),
     hire_date DATE
 );
+--/d -to list all tables in the current databse
