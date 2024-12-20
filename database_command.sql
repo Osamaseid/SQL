@@ -1,5 +1,6 @@
 --connect to database
 psql - U username - d database_name ---
+
 --create database---
 CREATE DATABASE my_database;
 ----
@@ -14,6 +15,7 @@ CREATE TABLE user (
     hire_date DATE
 );
 --/d -to list all tables in the current database--
+
 --insert to database table
 INSERT INTO user (name, position, salary)
 VALUES('osama', 'head', '20000');
@@ -22,7 +24,9 @@ CREATE INDEX idx_users_email ON users (email);
 ---
 ---drop an inde --
 DROP INDEX idx_users_email;
+
 -- show current database--
 SELECT current_database();
+
 --list tables--
 \ dt
